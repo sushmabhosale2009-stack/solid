@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai's Website</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:60px 20px;
+}
+
+h1{
+    font-size:40px;
+}
+
+button{
+    padding:12px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    background:#00b894;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00d8a5;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Hello, I'm Sai 👋</h1>
+<p>Welcome to my first website.</p>
+
+<button onclick="hello()">Click Me</button>
+
+</header>
+
+<script>
+function hello(){
+    alert("Welcome to my website!");
+}
+</script>
+
+</body>
+</html> 
